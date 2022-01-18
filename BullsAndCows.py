@@ -63,7 +63,7 @@ def play_Again():
 
 def main():
     print("Welcome to the game! Type 'exit' at any time to leave")
-    print(generate_Number())
+    print(generate_Number()) #<-- for dev only
     results()
     play_Again()
     
